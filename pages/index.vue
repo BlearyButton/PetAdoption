@@ -1,6 +1,6 @@
 <template>
   <div class="overflow-hidden min-h-screen relative bg-gray-200">
-    <div class="z-20 flex flex-row justify-between py-16 ml-64 relative">
+    <div class="w-full shadow-sm z-20 flex flex-row justify-between py-6 pl-12 md:pl-24 lg:pl-48 relative">
       <a href="#"
         ><div
           class="flex flex-row font-poppins text-md text-mediumpurple font-extrabold"
@@ -12,25 +12,25 @@
       <div
         class="flex flex-row font-poppins text-md text-darkblue font-bold mr-24"
       >
-        <a href="quizstart"><div class="mx-12">The quiz</div></a>
-        <a href="#"><div class="mx-12">Our pets</div></a>
-        <a href="#"><div class="mx-12">The process</div></a>
-        <a href="#"><div class="mx-12">Categories</div></a>
-        <a href="#"><div class="mx-12">Contact</div></a>
+        <a href="quizstart"><div class="mx-4 lg:mx-8 xl:mx-12">The quiz</div></a>
+        <a href="pets"><div class="mx-4 lg:mx-8 xl:mx-12">Our pets</div></a>
+        <a href="#"><div class="mx-4 lg:mx-8 xl:mx-12">The process</div></a>
+        <a href="#"><div class="mx-4 lg:mx-8 xl:mx-12">Categories</div></a>
+        <a href="#"><div class="mx-4 lg:mx-8 xl:mx-12">Contact</div></a>
       </div>
     </div>
     <div class="flex flex-row relative my-16 items-center">
       <div class="flex flex-col font-poppins">
-        <h3 class="mt-36 ml-64 text-mediumpurple font-extrabold">
+        <h3 class="mt-36 ml-48 text-mediumpurple font-extrabold">
           Adopt, don't shop
         </h3>
         <div
-          class="ml-64 my-4 text-6xl text-darkblue font-extrabold w-3/6 leading-normal"
+          class="ml-48 my-4 text-6xl text-darkblue font-extrabold w-3/6 leading-normal"
         >
           Give our animals a better home
         </div>
         <button
-          class="ml-64 w-48 text-center font-poppins text-md bg-darkorange text-white rounded-lg pl-6 pr-6 pt-3 pb-3"
+          class="ml-48 w-48 text-center font-poppins text-md bg-darkorange text-white rounded-lg pl-6 pr-6 pt-3 pb-3"
         >
           Do the quiz!
         </button>
@@ -74,7 +74,7 @@
       </div>
       <img
         src="../assets/images/adopt/blobcat.png"
-        class="w-6/12 absolute -right-56 -top-72"
+        class="w-6/12 absolute -right-56 -top-64"
       />
     </div>
     <img
@@ -95,7 +95,7 @@
     </div>
     <div class="mt-24 flex justify-center flex-row">
       <div
-        class="mx-6 outline outline-2 pb-12 flex flex-col bg-white w-2/12 h-96 drop-shadow-xl rounded-lg"
+        class="mx-6 pb-12 flex flex-col bg-white w-1/5 h-96 drop-shadow-xl rounded-lg"
       >
         <div
           class="bg-mediumpurple basis-4/6 rounded-b-none rounded-t-lg flex justify-center items-center"
@@ -138,7 +138,7 @@
         </div>
       </div>
       <div
-        class="mx-6 outline outline-2 pb-12 flex flex-col bg-white w-2/12 h-96 drop-shadow-xl rounded-lg"
+        class="mx-6 pb-12 flex flex-col bg-white w-1/5 h-96 drop-shadow-xl rounded-lg"
       >
         <div
           class="bg-mediumorange basis-4/6 rounded-b-none rounded-t-lg flex justify-center items-center"
@@ -186,7 +186,7 @@
         </div>
       </div>
       <div
-        class="mx-6 outline outline-2 pb-12 flex flex-col bg-white w-2/12 h-96 drop-shadow-xl rounded-lg"
+        class="mx-6 pb-12 flex flex-col bg-white w-1/5 h-96 drop-shadow-xl rounded-lg"
       >
         <div
           class="bg-mediumblue basis-4/6 rounded-b-none rounded-t-lg flex justify-center items-center"
