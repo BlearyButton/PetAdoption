@@ -18,6 +18,7 @@ module.exports = {
         'lightpurple': '#EDE9FF',
         'mediumpurple': '#A99BED',
         'darkpurple': '#5F4ACB',
+        'lightgray': '#8E8C96',
         'mediumgray': '#878B8F',
         'lightblue': '#E5F0FD',
         'mediumblue': '#73A9F5',
@@ -27,8 +28,8 @@ module.exports = {
       },
     },
   },
-  variants: { 
-  },
+  variants: ["responsive", "group-hover", "hover", "focus", "active"]
+  ,
   plugins: [
   ],
   safelist: [

@@ -12,7 +12,7 @@
       <div
         class="flex flex-row font-poppins text-md text-darkblue font-bold mr-24"
       >
-        <a href="#"><div class="mx-12">The quiz</div></a>
+        <a href="quizstart"><div class="mx-12">The quiz</div></a>
         <a href="#"><div class="mx-12">Our pets</div></a>
         <a href="#"><div class="mx-12">The process</div></a>
         <a href="#"><div class="mx-12">Categories</div></a>
@@ -29,11 +29,11 @@
         >
           Give our animals a better home
         </div>
-        <div
+        <button
           class="ml-64 w-48 text-center font-poppins text-md bg-darkorange text-white rounded-lg pl-6 pr-6 pt-3 pb-3"
         >
           Do the quiz!
-        </div>
+        </button>
         <div class="mt-24 flex justify-start">
           <div class="w-11/12 bg-darkpurple rounded-r-2xl px-12 py-6">
             <div class="flex flex-row items-center">
